@@ -15,7 +15,6 @@
   </head>
   <body>
     <main>
-      
       <div class="container">
         <div class="avatar">
           <span>
@@ -23,34 +22,53 @@
           </span>
           <img src="https://lorempixel.com/185/185/people" alt="Foto pessoal" />
         </div>
-        <h1>Lúcio do Nascimento</h1>
-        <a href="https://github.com/lucio-iot-dev">
+        <h1 id="userName">Lúcio do Nascimento</h1>
+        <a href="https://github.com/lucio-iot-dev" target="_blank">
           <img src="images/github.svg" alt="ícone github" />lucio</a
         >
         <p>An instructor focused on helping pople start programming for web</p>
-        <ul>
-          <li>
-            <a href="https://youtube.com.br">
-              <img src="images/youtube.svg" alt="you tube" target="_blank" />
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com.br" target="_blank">
+              <img src="images/youtube.svg" alt="you tube" />
             </a>
           </li>
-          <li>
-            <a href="https://instagram.com.br">
-              <img src="images/instagram.svg" alt="istagram" target="_blank" />
+          <li class="instagram">
+            <a href="https://instagram.com.br" target="_blank">
+              <img src="images/instagram.svg" alt="istagram" />
             </a>
           </li>
-          <li>
-            <a href="https://facebook.com.br">
-              <img src="images/facebook.svg" alt="facebook" target="_blank" />
+          <li class="facebook">
+            <a href="https://facebook.com.br" target="_blank">
+              <img src="images/facebook.svg" alt="facebook" />
             </a>
           </li>
-          <li>
-            <a href="http://twitter.com.br">
-              <img src="images/twitter.svg" alt="twitter" target="_blank" />
+          <li class="twitter">
+            <a href="http://twitter.com.br" target="_blank">
+              <img src="images/twitter.svg" alt="twitter" />
             </a>
           </li>
         </ul>
       </div>
     </main>
+
+    <script>
+      const linksSocialMedia = {
+        github: 'lucio-iot-dev',
+        youtube: 'watch?v=jIa8R69pKh8',
+        facebook: 'maykbrito',
+        instagram:
+          'explore/?gclid=CjwKCAjwzt6LBhBeEiwAbPGOgeOQfAqws4YoHSdNW3ksrqZU2jjfZVxCwymqe_bD8VX4a3LKoa7o_xoCDkYQAvD_BwE',
+        twitter: 'maykbrito'
+      }
+
+      function changesSocialMediaLinks() {
+        for (let li of socialLinks.children) {
+          alert(li.getAttribute('class'))
+        }
+      }
+
+      changesSocialMediaLinks()
+    </script>
   </body>
 </html>

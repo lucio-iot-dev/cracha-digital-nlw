@@ -20,17 +20,25 @@
           <span>
             <img src="images/build.svg" alt="Selo rocketseat" />
           </span>
-          <img src="https://lorempixel.com/185/185/people" alt="Foto pessoal" />
+          <img
+            src="https://lorempixel.com/185/185/people"
+            alt="Foto pessoal"
+            id="userImage"
+          />
         </div>
-        <h1 id="userName">Lúcio do Nascimento</h1>
-        <a href="https://github.com/lucio-iot-dev" target="_blank">
-          <img src="images/github.svg" alt="ícone github" />lucio</a
+        <h1 id="userName">Julio da Silva</h1>
+        <a id="userLink" href="https://github.com" target="_blank">
+          <img class="gith"src="images/github.svg" alt="ícone github" /><span id="userLogin"
+            >Julio</span
+          ></a
         >
-        <p>An instructor focused on helping pople start programming for web</p>
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
         <ul id="socialLinks">
-          <li class="youtube">
-            <a href="https://youtube.com.br" target="_blank">
-              <img src="images/youtube.svg" alt="you tube" />
+          <li class="whatsapp">
+            <a href="https://whatsapp.com.br" target="_blank">
+              <img src="images/whatsapp.svg" alt="whatsapp" />
             </a>
           </li>
           <li class="instagram">
@@ -38,37 +46,20 @@
               <img src="images/instagram.svg" alt="istagram" />
             </a>
           </li>
-          <li class="facebook">
-            <a href="https://facebook.com.br" target="_blank">
-              <img src="images/facebook.svg" alt="facebook" />
-            </a>
-          </li>
-          <li class="twitter">
-            <a href="http://twitter.com.br" target="_blank">
-              <img src="images/twitter.svg" alt="twitter" />
-            </a>
-          </li>
-        </ul>
-      </div>
+        </li>
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/l%C3%BAcio-nascimento-8868101ba/" target="_blank">
+            <img src="images/linkedin.svg" alt="linkedin" />
+          </a>
+        </li>
+        <li class="google">
+          <a href="https://google.com.br" target="_blank">
+            <img src="images/sphere.svg" alt="google" />
+          </a>
+      </ul>
+    </div>
     </main>
 
-    <script>
-      const linksSocialMedia = {
-        github: 'lucio-iot-dev',
-        youtube: 'watch?v=jIa8R69pKh8',
-        facebook: 'maykbrito',
-        instagram:
-          'explore/?gclid=CjwKCAjwzt6LBhBeEiwAbPGOgeOQfAqws4YoHSdNW3ksrqZU2jjfZVxCwymqe_bD8VX4a3LKoa7o_xoCDkYQAvD_BwE',
-        twitter: 'maykbrito'
-      }
-
-      function changesSocialMediaLinks() {
-        for (let li of socialLinks.children) {
-          alert(li.getAttribute('class'))
-        }
-      }
-
-      changesSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>

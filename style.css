@@ -64,6 +64,7 @@ a {
   gap: 0.75rem;
   justify-content: center;
   align-items: center;
+  filter: invert(0.8);
 }
 
 p {
@@ -80,4 +81,12 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+span {
+  filter: invert(0.8);
+}
+
+.gith {
+  filter: invert(0.8);
 }

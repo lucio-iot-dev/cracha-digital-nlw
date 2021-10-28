@@ -1,8 +1,7 @@
 const linksSocialMedia = {
   github: 'lucio-iot-dev',
   whatsapp: 'send?phone=5532991984361.',
-  instagram:
-    'explore/?gclid=CjwKCAjwzt6LBhBeEiwAbPGOgeOQfAqws4YoHSdNW3ksrqZU2jjfZVxCwymqe_bD8VX4a3LKoa7o_xoCDkYQAvD_BwE',
+  instagram: 'luciojf_ti/',
   linkedin: 'in/l%C3%BAcio-nascimento-8868101ba/',
   google: ''
 }
@@ -16,8 +15,8 @@ function changesSocialMediaLinks() {
 changesSocialMediaLinks()
 
 function changesSocialWhatsapp() {
-  // const zap = socialLinks.getAttribute('class')
-  socialLinks.href = `https://wa.me/${linksSocialMedia.whatsapp}`
+  // console.log(zap)
+  zap.href = `http://api.whatsapp.com/${linksSocialMedia.whatsapp}`
 }
 
 changesSocialWhatsapp()

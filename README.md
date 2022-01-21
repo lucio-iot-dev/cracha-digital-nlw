@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src="" width="100%">
+  <img alt="dev.finances" src="https://github.com/lucio-iot-dev/cracha-digital-nlw/blob/main/images/crach%C3%A1c.jpeg" width="30%">
 </p>
 
 ## 🚀 Tecnologias

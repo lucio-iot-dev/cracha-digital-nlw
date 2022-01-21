@@ -37,6 +37,11 @@ O Crachá virtual DoWhile é uma aplicação estática com o objetivo de mostrar
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+## ![image](https://user-images.githubusercontent.com/73481550/150464430-b6a3ac38-ebcf-47dd-851a-69259207f143.png) Clique no link da aplicação 
+
+![image](https://user-images.githubusercontent.com/73481550/150463245-2b890a97-16ff-4b8a-93aa-bc6861553375.png)    [Link](https://lucio-iot-dev.github.io/cracha-digital-nlw/).
+
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/lucio-iot-dev/cracha-digital-nlw/blob/main/LICENSE) para mais detalhes.
